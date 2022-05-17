@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+nav {
+  background-color: #085586!important;
+}
+.top-half {
+//   max-height: 40%; 
+    height: 30vh;
+  object-fit: cover;
+  object-position: 0rem 35%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.card, .customjumbo {
+  border-radius: 1rem !important;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.111);
+}
+
+.customjumbo {
+  background: white;
+}
+
+.formcard {
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .formcard {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .formcard {
+    width: 90%;
+  }
+}
+
+body {
+  background: url("../images/bg4.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.card, .customjumbo {
+  background: rgba(255, 255, 255, 0.114);
+  backdrop-filter: blur(15px);
+  color: white;
+  border: 1.5px grey solid;
+}
